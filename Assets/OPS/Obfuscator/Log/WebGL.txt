@@ -334,9 +334,9 @@
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (1):
   - UnityEngine.UI.Image
 
-[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference TMPro.TextMeshProUGUI for Label
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for Label
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Label (1):
-  - TMPro.TextMeshProUGUI
+  - UnityEngine.UI.Text
 
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Toggle for Settings
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Settings (1):
@@ -354,9 +354,9 @@
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (1):
   - UnityEngine.UI.Image
 
-[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference TMPro.TextMeshProUGUI for Label
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for Label
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Label (1):
-  - TMPro.TextMeshProUGUI
+  - UnityEngine.UI.Text
 
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Toggle for Quit
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Quit (1):
@@ -382,9 +382,9 @@
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for EventSystem (1):
   - UnityEngine.EventSystems.EventSystem
 
-[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.EventSystems.StandaloneInputModule for EventSystem
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.InputSystem.UI.InputSystemUIInputModule for EventSystem
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for EventSystem (1):
-  - UnityEngine.EventSystems.StandaloneInputModule
+  - UnityEngine.InputSystem.UI.InputSystemUIInputModule
 
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference ResourceManager for ResourceManager
 [Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for ResourceManager (1):
@@ -1515,56 +1515,57 @@
 [Debug][OPS.OBF][Setup] Load Pipeline
 [Warning][OPS.OBF][Setup] There is no assembly: Assembly-CSharp-firstpass.dll
 [Debug][OPS.OBF][Setup] Found to obfuscate assemblies (5):
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Wx.dll
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Wx.dll
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
 
 [Debug][OPS.OBF][Setup] Found helper assemblies (0):
 
-[Debug][OPS.OBF][Setup] Found dependency directories (29):
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\Managed\UnityEngine
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\PlaybackEngines\WebGLSupport\Managed
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\Managed
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32\Facades
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\PlaybackEngines\WebGLSupport
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\ScriptAssemblies
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\OPS\Plugins\Yaml
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\OPS\Plugins\Json
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\OPS\Obfuscator\Plugins
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\OPS\Obfuscator\Editor\Plugins
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\OPS\Editor\Plugins\Mono.Cecil
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\GameBiuBiuBiu\Pack\ThirdParty\AstarPathfindingProject\Plugins\DotNetZip
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\WX-WASM-SDK-V2\Runtime\Plugins
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PackageCache\com.unity.burst@1.6.6
-  - C:\Users\24358\Documents\MyShoot\TopdownShootURP\Assets\WX-WASM-SDK-V2\Editor
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\NetStandard\ref\2.1.0
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\NetStandard\Extensions\2.0.0
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx
+[Debug][OPS.OBF][Setup] Found dependency directories (30):
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\Managed\UnityEngine
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\PlaybackEngines\WebGLSupport\Managed
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\Managed
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\MonoBleedingEdge\lib\mono\unityjit-win32\Facades
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\PlaybackEngines\WebGLSupport
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\PlaybackEngines\WindowsStandaloneSupport
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\ScriptAssemblies
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\OPS\Plugins\Yaml
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\OPS\Plugins\Json
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\OPS\Obfuscator\Plugins
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\OPS\Obfuscator\Editor\Plugins
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\OPS\Editor\Plugins\Mono.Cecil
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\GameBiuBiuBiu\Pack\ThirdParty\AstarPathfindingProject\Plugins\DotNetZip
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\WX-WASM-SDK-V2\Runtime\Plugins
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PackageCache\com.unity.connect.share@4.2.3\Plugins
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PackageCache\com.unity.burst@1.6.0
+  - D:\360Downloads\UnityWebGL-LoadingBuilt-in\Assets\WX-WASM-SDK-V2\Editor
   - Assets\OPS\Plugins\Yaml
   - Assets\OPS\Plugins\Json
   - Assets\OPS\Obfuscator\Plugins
   - Assets\WX-WASM-SDK-V2\Runtime\Plugins
   - Assets\GameBiuBiuBiu\Pack\ThirdParty\AstarPathfindingProject\Plugins\DotNetZip
-  - C:\Program Files\Unity\Hub\Editor\2021.3.29f1c1\Editor\Managed
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\NetStandard\ref\2.1.0
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\NetStandard\Extensions\2.0.0
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Data\NetStandard\compat\2.1.0\shims\netfx
+  - D:\TeraBoxDownload\Editor\2021.2.5f1c302\Editor\Managed
 
 [Debug][OPS.OBF][Setup] Load Assembly Resolver
 [Debug][OPS.OBF][Setup] Load Assemblies
 [Debug][OPS.OBF][Setup] Load Cache
 [Debug][OPS.OBF][Setup] Load RenameManager
 [Info][OPS.OBF][OnPreObfuscation] Process component Assembly - Backup
-[Info][OPS.OBF][OnPreObfuscation] Backup extern/precompiled assemblies info at C:/Users/24358/Documents/MyShoot/TopdownShootURP/Assets\OPS\Obfuscator\Temp\Obfuscator_Backup_Assemblies.txt
-[Debug][OPS.OBF][OnPreObfuscation] C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Assembly-CSharp.dll: Is a Unity generated assembly, does not need a backup.
-[Debug][OPS.OBF][OnPreObfuscation] C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll: Is a Unity generated assembly, does not need a backup.
-[Debug][OPS.OBF][OnPreObfuscation] C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Wx.dll: Is a Unity generated assembly, does not need a backup.
-[Debug][OPS.OBF][OnPreObfuscation] C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll: Is a Unity generated assembly, does not need a backup.
-[Debug][OPS.OBF][OnPreObfuscation] C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll: Is a Unity generated assembly, does not need a backup.
+[Info][OPS.OBF][OnPreObfuscation] Backup extern/precompiled assemblies info at D:/360Downloads/UnityWebGL-LoadingBuilt-in/Assets\OPS\Obfuscator\Temp\Obfuscator_Backup_Assemblies.txt
+[Debug][OPS.OBF][OnPreObfuscation] D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Assembly-CSharp.dll: Is a Unity generated assembly, does not need a backup.
+[Debug][OPS.OBF][OnPreObfuscation] D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll: Is a Unity generated assembly, does not need a backup.
+[Debug][OPS.OBF][OnPreObfuscation] D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Wx.dll: Is a Unity generated assembly, does not need a backup.
+[Debug][OPS.OBF][OnPreObfuscation] D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll: Is a Unity generated assembly, does not need a backup.
+[Debug][OPS.OBF][OnPreObfuscation] D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll: Is a Unity generated assembly, does not need a backup.
 [Info][OPS.OBF][OnPreObfuscation] Process component Renaming - Settings
 [Info][OPS.OBF][OnAnalyse_A_Assemblies] Process component Unity Animation Methods - Compatibility
 [Info][OPS.OBF][OnAnalyse_A_Assemblies] [Assembly-CSharp] Skip Animation Methods...
@@ -13333,20 +13334,20 @@
 [Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Suppress ILDasm
 [Info][OPS.OBF][OnPostObfuscation] Process component Renaming - Settings
 [Debug][OPS.OBF][OnPostObfuscation] Save Assemblies
-[Info][OPS.OBF][OnPostObfuscation] Saving assembly: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
-[Info][OPS.OBF][OnPostObfuscation] Saving assembly: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
-[Info][OPS.OBF][OnPostObfuscation] Saving assembly: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Wx.dll
-[Info][OPS.OBF][OnPostObfuscation] Saving assembly: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
-[Info][OPS.OBF][OnPostObfuscation] Saving assembly: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
+[Info][OPS.OBF][OnPostObfuscation] Saving assembly: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
+[Info][OPS.OBF][OnPostObfuscation] Saving assembly: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
+[Info][OPS.OBF][OnPostObfuscation] Saving assembly: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Wx.dll
+[Info][OPS.OBF][OnPostObfuscation] Saving assembly: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
+[Info][OPS.OBF][OnPostObfuscation] Saving assembly: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
 [Info][OPS.OBF][OnPostObfuscation] Unload
 [Debug][OPS.OBF][OnPostObfuscation] Unload RenameManager
 [Debug][OPS.OBF][OnPostObfuscation] Unload Cache
 [Debug][OPS.OBF][OnPostObfuscation] Unload Assemblies
-[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
-[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
-[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Wx.dll
-[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
-[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: C:\Users\24358\Documents\MyShoot\TopdownShootURP\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
+[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Assembly-CSharp.dll
+[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\AstarPathfindingProject.dll
+[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Wx.dll
+[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\VirtualButtonsScripts.dll
+[Info][OPS.OBF][OnPostObfuscation] Unloaded assembly successfully: D:\360Downloads\UnityWebGL-LoadingBuilt-in\Library\PlayerScriptAssemblies\Supyrb.WebGLTools.dll
 [Debug][OPS.OBF][OnPostObfuscation] Unload Assembly Resolver
 [Info][OPS.OBF][OnPostObfuscation] Unloaded successfully the AssemblyResolver.
 [Debug][OPS.OBF][OnPostObfuscation] Unload Pipeline
@@ -13361,6 +13362,15 @@
   - Assembly Backup Restore (Restores the backuped assemblies.)
 
 [Info][OPS.OBF][OnPostBuild] Process component Assembly Backup Restore
-[Info][OPS.OBF][OnPostBuild] Restore extern/precompiled assemblies info from C:/Users/24358/Documents/MyShoot/TopdownShootURP/Assets\OPS\Obfuscator\Temp\Obfuscator_Backup_Assemblies.txt.
+[Info][OPS.OBF][OnPostBuild] Restore extern/precompiled assemblies info from D:/360Downloads/UnityWebGL-LoadingBuilt-in/Assets\OPS\Obfuscator\Temp\Obfuscator_Backup_Assemblies.txt.
+[Debug][OPS.OBF][OnPostBuild] Unload Pipeline Components
+[Debug][OPS.OBF][OnPostBuild] Unload DataContainer
+[Info][OPS.OBF][Setup] Start 'PostBuild' process.
+[Debug][OPS.OBF][Setup] Load Data Container
+[Debug][OPS.OBF][Setup] Load Pipeline Components
+[Debug][OPS.OBF][Setup] Found Components (1):
+  - Assembly Backup Restore (Restores the backuped assemblies.)
+
+[Info][OPS.OBF][OnPostBuild] Process component Assembly Backup Restore
 [Debug][OPS.OBF][OnPostBuild] Unload Pipeline Components
 [Debug][OPS.OBF][OnPostBuild] Unload DataContainer
