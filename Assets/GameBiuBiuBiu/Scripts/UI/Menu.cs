@@ -10,6 +10,9 @@ public class Menu : MonoBehaviour
     public ToggleGroup toggleGroup;
 
     private Toggle currentSelection => toggleGroup.GetFirstActiveToggle();
+    /// <summary>
+    /// 记录当前是否选中
+    /// </summary>
     private Toggle onToggle;
     private AudioSource audioSource;
 
@@ -52,11 +55,15 @@ public class Menu : MonoBehaviour
         {
             ResourceManager.instance.PlaySelectSound();//播放音效
             onToggle = toggle;
-            onToggle.transform.Find("Label").GetComponent<TMP_Text>().color = Color.yellow;
+            var txt = onToggle.transform.Find("Label").GetComponent<TMP_Text>();
+            if(txt!=null)
+                txt.color = Color.yellow;
         }
         else
         {
-            onToggle.transform.Find("Label").GetComponent<TMP_Text>().color = Color.white;
+            var txt = onToggle.transform.Find("Label").GetComponent<TMP_Text>();
+            if(txt!=null)
+                txt.color = Color.white;
         }
     }
 }
